@@ -116,3 +116,15 @@ section .leftsection h3 .btn{
     text-transform: capitalize;
 
 }
+section .leftsection .btn button{
+    color: #fff;
+    position:absolute;
+    top:77%;
+    left:17%;
+    font-size: 1.1rem;
+    padding: 15px;
+    text-transform: capitalize;
+    border: none;
+    border-radius:5px ;
+    background:  rgb(222,25,70);
+}
