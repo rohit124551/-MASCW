@@ -33,6 +33,11 @@ header nav{
 header nav ul{
     margin-top: 2px;
 }
+.login{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: ;
+}
 header nav ul li{
     padding:20px ;
     display: inline-block;
@@ -127,4 +132,13 @@ section .leftsection .btn button{
     border: none;
     border-radius:5px ;
     background:  rgb(222,25,70);
+}
+section .rightsection{
+    width: 50%;
+}
+section .rightsection img{
+    width: ;
+    height: ;
+
+
 }
