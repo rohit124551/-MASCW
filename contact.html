@@ -41,7 +41,7 @@
          /* Transparent background for the form */
       }
       
-      h2 {
+      .feed {
         text-align: center;
       }
       .form-group {
@@ -69,12 +69,40 @@
         padding: 10px 20px;
         cursor: pointer;
       }
+      footer {
+        background-color: #8e44ad; /* Light Purple */
+        color: #ecf0f1;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        animation: rotateColor 5s linear infinite;
+      }
+
+      @keyframes rotateColor {
+        0% {
+          background-color: #8e44ad; /* Light Purple */
+        }
+        25% {
+          background-color: #835083; /* Dark Purple */
+        }
+        50% {
+          background-color: #e73cd6; /* Red */
+        }
+        75% {
+          background-color: #9327ae; /* Green */
+        }
+        100% {
+          background-color: #8e44ad; /* Light Purple */
+        }
+      }
     </style>
   </head>
   <body>
     <div class="banner">
       <div class="container">
-        <h2>Feedback Form <img src="ok.webp" srcset="10px" /></h2>
+        <h2 class="feed">Contact us Form </h2>
         <form id="ContactUsForm">
           <div class="form-group">
             <label for="name">Name:</label>
@@ -83,6 +111,10 @@
           <div class="form-group">
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input type="number" name="phone" id="phone">
           </div>
           <div class="form-group">
             <label for="message">Message:</label>
@@ -94,6 +126,9 @@
         </form>
       </div>
     </div>
+    <footer>
+        <p>&copy; 2023 Lovely Professional University. All rights reserved.</p>
+      </footer>
     <script>
       // JavaScript to handle form submission
       document
@@ -109,11 +144,14 @@
               "Email: " +
               formData.get("email") +
               "\n" +
+              "Phone No:"+formData.get("phone")+
+              "\n" +
               "Message: " +
               formData.get("message")
           );
           this.reset();
         });
     </script>
+
   </body>
 </html>
