@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    width: 95%;
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin:0 auto;
+
+}
+header .logo img{
+    width: 110px;
+    height: 90px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    margin-top: 2px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    margin-top: 2px;
+}
+header nav ul li{
+    padding:20px ;
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform:  capitalize;
+    color:rgb(222,25,70);
+    font-size: 1.1rem;
+
+
+}
+header nav ul li a:hover{
+    color: #333;
+}
+header nav ul li a:active{
+    color: #333;
+}
+header .btn{
+
+    padding: 20px;
+
+}
+header .btn button{
+    padding: 15px;
+    boder:none;
+    border-radius: 5px;
+    background: ;
+    font-size: 1.1rem;
+    color:rgb(222,25,70);
+    text-transform: capitalize;
+    cursor:pointer;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+section .leftsection{
+    width: 50%;
+
+}
+
+section .leftsection h1{
+    font-size:2.1rem;
+    font-weight: 900;
+    color:rgb(222,25,70));
+    position:absolute;
+    top:36%;
+    left:4%;
+    text-transform:capitalize;
+
+}
+section .leftsection h2{
+    font-size:1.5rem;
+    font-weight: 600;
+    color:rgb(122,25,70);
+    position:absolute;
+    top:50%;
+    left:9%;
+    text-transform: capitalize;
+}
+section .leftsection h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(100,125,270);
+    position:absolute;
+    top:65%;
+    left:14.5%;
+    text-transform: capitalize;
+
+}
+section .leftsection h3 .btn{
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgb(100,125,270);
+    position:absolute;
+    top:65%;
+    left:14.5%;
+    text-transform: capitalize;
+
+}
