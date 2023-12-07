@@ -26,7 +26,7 @@ body
 	border-radius: 8px;
 	overflow: hidden;
 }
-.box::before 
+/* .box::before 
 {
 	content: '';
 	z-index: 1;
@@ -38,8 +38,8 @@ body
 	transform-origin: bottom right;
 	background: linear-gradient(0deg,transparent,#45f3ff,#1c5458);
 	animation: animate 6s linear infinite;
-}
-.box::after 
+} */
+/* .box::after 
 {
 	content: '';
 	z-index: 1;
@@ -52,7 +52,7 @@ body
 	background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
 	animation: animate 6s linear infinite;
 	animation-delay: -3s;
-}
+} */
 @keyframes animate 
 {
 	0%
